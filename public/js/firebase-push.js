@@ -17,6 +17,10 @@ function writeDataTest(){
 	var name = document.getElementById("text-input").value;
 	var details = document.getElementById("details-input").value;
 	writeData(name, details);
+
+	document.getElementById("text-input").value = '';
+	document.getElementById("details-input").value = '';
+
 }
 function writeData(name, details){
 	var newEventRef = firebase.database().ref('events/').push()
@@ -24,6 +28,7 @@ function writeData(name, details){
 		eventname: name,
 		details: details,
 	});
+
 }
 function outputEvents(){
 	var eventsRef = firebase.database().ref('events/');
