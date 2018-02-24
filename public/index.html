@@ -44,6 +44,7 @@
   </head>
   <body>
     <div class="container-fluid" style="padding:0;">
+new-event
           <div class="header">
             <h1>LEARNWITH.ME</h1>
             <h2>Connecting a community of likeminded learners.</h2>
@@ -86,8 +87,24 @@
           $(".event-container").append(
             '<div class="event">'+data[i][0] + ": " + data[i][1] + '</div>'
           );
+      <div class="header">
+        <h1>LEARNWITH.ME</h1>
+        <h2>Connecting a community of likeminded learners.</h2>
+      </div>
+    </div>
+    <div class="upcoming event-container" style="padding-bottom: 100px;">
+      <h3>Browse upcoming events</h3>
+      <script>
+        outputEvents((data) => {
+          $(data).each(function(i, e) {
+            var image_url = data[i][1];
+            $(".event-container").append(
+              '<div class="card" style="width: 20rem;"><div class="card-img-top" style=background-image:url("' + image_url + '")></div><div class="card-block" style="padding-bottom: 25px;"><h4>'+data[i][3]+'</h4><p>' + data[i][0] + '</p><i class="far fa-calendar-alt icon"></i><span class="info">' + data[i][4] + '</span><br><i class="fas fa-map-marker icon"></i><span class="info">' + data[i][2] + '</span></div>'
+            );
+          });
+        master
         });
-      });
-    </script>
+      </script>
+    </div>
   </body>
 </html>
