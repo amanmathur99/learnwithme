@@ -18,3 +18,10 @@ function signin(){
   // ...
 });
 }
+
+function writeUserData(userId, name, password) {
+  firebase.database().ref('users/' + userId).set({
+    username: name,
+    password: password,
+  });
+}
