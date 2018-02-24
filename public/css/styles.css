@@ -1,5 +1,6 @@
 body {
   padding-top: 3rem;
+  -webkit-text-size-adjust:none;
 }
 .starter-template {
   padding: 3rem 1.5rem;
