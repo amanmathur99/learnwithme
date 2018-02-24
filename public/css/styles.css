@@ -1,6 +1,6 @@
 body, html {
   font-family: 'SF Pro Display', sans-serif;
-  color:#595959;
+  color:#000000;
   margin: 0;
 }
 
@@ -87,7 +87,25 @@ color: rgba(0, 0, 0, 0.2);
   color: rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 425px) {
+.create {
+  text-align: center;
+  width: 100px;
+  margin: auto;
+}
+
+.new-card {
+  width: 171px;
+  height: 279px;
+  text-align: center;
+}
+
+.new-card img {
+  height: 50px;
+  width: 50px;
+  margin: 80px auto 0 auto;
+}
+
+@media only screen and (max-width: 555px) {
   h1 {
     font-size: 40px;
   }
