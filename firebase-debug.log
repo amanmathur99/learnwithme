@@ -1629,3 +1629,1077 @@
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-02-24T20:28:10.939Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:28:10.940Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:28:10.941Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:28:10.941Z] Platform:      win32
+[debug] [2018-02-24T20:28:10.941Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:28:10.941Z] Time:          Sat Feb 24 2018 15:28:10 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:10.941Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:28:10.954Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:28:10.955Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:28:10.958Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-24T20:28:10.958Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/P85oq5C2xSxpL-Nc5qdkr9IdZeWSXqEZyJREE9k_hMuQPT1WFzBlgZ10bqlS1zFC',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Feb 24 2018 15:28:10 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:11.329Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:28:11.338Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:28:11 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:11.603Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:28:11.603Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:28:11 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:11.971Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:28:11.973Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:28:11 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:12.223Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:28:12.223Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:28:12 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:12.432Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:28:31.071Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:28:31.072Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:28:31.073Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:28:31.073Z] Platform:      win32
+[debug] [2018-02-24T20:28:31.073Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:28:31.073Z] Time:          Sat Feb 24 2018 15:28:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:31.073Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:28:31.083Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:28:31.084Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:28:31.086Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:28:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:31.318Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:28:31.318Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:28:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:31.602Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:28:31.602Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:28:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:31.884Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:28:31.884Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:28:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:28:32.134Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:31:02.223Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:31:02.223Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:31:02.223Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:31:02.223Z] Platform:      win32
+[debug] [2018-02-24T20:31:02.223Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:31:02.223Z] Time:          Sat Feb 24 2018 15:31:02 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:31:02.223Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:31:02.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:31:02.223Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:31:02.223Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:31:02 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:31:02.533Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:31:02.533Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:31:02 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:31:02.915Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:31:02.930Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:31:02 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:31:03.183Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:31:03.183Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:31:03 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:31:04.687Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:33:44.200Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:33:44.202Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:33:44.202Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:33:44.202Z] Platform:      win32
+[debug] [2018-02-24T20:33:44.202Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:33:44.212Z] Time:          Sat Feb 24 2018 15:33:44 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:33:44.212Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:33:44.227Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:33:44.228Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:33:44.230Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:33:44 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:33:44.705Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:33:44.705Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:33:44 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:33:45.071Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:33:45.073Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:33:45 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:33:45.392Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:33:45.392Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:33:45 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:33:45.825Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:35:53.314Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:35:53.316Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:35:53.316Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:35:53.316Z] Platform:      win32
+[debug] [2018-02-24T20:35:53.316Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:35:53.316Z] Time:          Sat Feb 24 2018 15:35:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:35:53.316Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:35:53.327Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:35:53.329Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:35:53.332Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:35:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:35:53.774Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:35:53.775Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:35:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:35:54.222Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:35:54.224Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:35:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:35:54.895Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:35:54.896Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:35:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:35:55.177Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:36:30.793Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:36:30.793Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:36:30.793Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:36:30.793Z] Platform:      win32
+[debug] [2018-02-24T20:36:30.793Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:36:30.793Z] Time:          Sat Feb 24 2018 15:36:30 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:36:30.793Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:36:30.808Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:36:30.808Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:36:30.808Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:36:30 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:36:31.153Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:36:31.154Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:36:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:36:31.460Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:36:31.461Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:36:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:36:31.764Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:36:31.764Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:36:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:36:32.040Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:37:58.470Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:37:58.470Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:37:58.470Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:37:58.470Z] Platform:      win32
+[debug] [2018-02-24T20:37:58.470Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:37:58.470Z] Time:          Sat Feb 24 2018 15:37:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:37:58.470Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:37:58.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:37:58.470Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:37:58.486Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:37:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:37:58.783Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:37:58.783Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:37:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:37:59.065Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:37:59.065Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:37:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:37:59.315Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:37:59.315Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:37:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:37:59.534Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:38:25.471Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:38:25.471Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:38:25.471Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:38:25.471Z] Platform:      win32
+[debug] [2018-02-24T20:38:25.471Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:38:25.471Z] Time:          Sat Feb 24 2018 15:38:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:25.471Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:38:25.471Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:38:25.487Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:38:25.487Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:38:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:26.313Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:38:26.313Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:38:26 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:26.721Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:38:26.721Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:38:26 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:27.044Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:38:27.045Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:38:27 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:28.917Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:38:50.500Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:38:50.500Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:38:50.500Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:38:50.500Z] Platform:      win32
+[debug] [2018-02-24T20:38:50.500Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:38:50.500Z] Time:          Sat Feb 24 2018 15:38:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:50.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:38:50.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:38:50.516Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:38:50.516Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:38:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:53.278Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:38:53.278Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:38:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:53.611Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:38:53.611Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:38:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:53.876Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:38:53.876Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:38:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:38:54.080Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:39:49.563Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:39:49.563Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:39:49.563Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:39:49.563Z] Platform:      win32
+[debug] [2018-02-24T20:39:49.563Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:39:49.563Z] Time:          Sat Feb 24 2018 15:39:49 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:39:49.563Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:39:49.579Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:39:49.579Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:39:49.579Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:39:49 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:39:49.884Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:39:49.884Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:39:49 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:39:50.229Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:39:50.229Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:39:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:39:50.751Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:39:50.752Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:39:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:39:50.972Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:41:34.071Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:41:34.073Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:41:34.073Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:41:34.073Z] Platform:      win32
+[debug] [2018-02-24T20:41:34.073Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:41:34.074Z] Time:          Sat Feb 24 2018 15:41:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:41:34.074Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:41:34.085Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:41:34.086Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:41:34.087Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:41:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:41:34.427Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:41:34.428Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:41:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:41:34.939Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:41:34.940Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:41:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:41:35.198Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:41:35.198Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:41:35 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:41:35.479Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:42:01.541Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:42:01.557Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:42:01.557Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:42:01.557Z] Platform:      win32
+[debug] [2018-02-24T20:42:01.557Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:42:01.557Z] Time:          Sat Feb 24 2018 15:42:01 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:01.557Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:42:01.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:42:01.557Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:42:01.557Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:01 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:01.869Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:01.869Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:42:01 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:03.386Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:42:03.388Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:03 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:03.644Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:03.644Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:42:03 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:03.954Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:42:22.788Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:42:22.788Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:42:22.788Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:42:22.788Z] Platform:      win32
+[debug] [2018-02-24T20:42:22.788Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:42:22.788Z] Time:          Sat Feb 24 2018 15:42:22 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:22.788Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:42:22.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:42:22.804Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:42:22.804Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:22 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:23.570Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:23.570Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:42:23 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:23.883Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:42:23.883Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:23 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:24.148Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:24.148Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:42:24 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:27.710Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:42:52.149Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:42:52.149Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:42:52.149Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:42:52.149Z] Platform:      win32
+[debug] [2018-02-24T20:42:52.149Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:42:52.149Z] Time:          Sat Feb 24 2018 15:42:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:52.149Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:42:52.164Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:42:52.164Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:42:52.172Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:52.499Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:52.499Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:42:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:52.908Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:42:52.910Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:42:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:54.000Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:42:54.001Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:42:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:42:54.508Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:47:09.599Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:47:09.599Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:47:09.599Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:47:09.599Z] Platform:      win32
+[debug] [2018-02-24T20:47:09.599Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:47:09.599Z] Time:          Sat Feb 24 2018 15:47:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:09.599Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:47:09.614Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:47:09.614Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:47:09.614Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:47:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:09.874Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:47:09.874Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:47:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:16.161Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:47:16.161Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:47:16.161Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:47:16.161Z] Platform:      win32
+[debug] [2018-02-24T20:47:16.161Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:47:16.161Z] Time:          Sat Feb 24 2018 15:47:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:16.161Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:47:16.177Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:47:16.177Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:47:16.177Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:47:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:16.780Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:47:16.780Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:47:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:17.061Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:47:17.061Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:47:17 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:17.638Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:47:17.638Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:47:17 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:17.842Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:47:36.984Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:47:36.986Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:47:36.986Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:47:36.986Z] Platform:      win32
+[debug] [2018-02-24T20:47:36.986Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:47:36.986Z] Time:          Sat Feb 24 2018 15:47:36 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:36.986Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:47:36.997Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:47:36.998Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:47:37.000Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:47:37 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:38.168Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:47:38.168Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:47:38 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:38.924Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:47:38.924Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:47:38 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:39.393Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:47:39.393Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:47:39 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:47:39.631Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:48:09.234Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:48:09.234Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:48:09.234Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:48:09.234Z] Platform:      win32
+[debug] [2018-02-24T20:48:09.234Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:48:09.234Z] Time:          Sat Feb 24 2018 15:48:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:09.234Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:48:09.250Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:48:09.250Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:48:09.250Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:48:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:09.606Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:48:09.606Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:48:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:09.967Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:48:09.969Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:48:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:10.221Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:48:10.222Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:48:10 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:10.516Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:48:24.463Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:48:24.463Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:48:24.463Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:48:24.463Z] Platform:      win32
+[debug] [2018-02-24T20:48:24.463Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:48:24.463Z] Time:          Sat Feb 24 2018 15:48:24 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:24.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:48:24.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:48:24.479Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:48:24.479Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:48:24 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:25.159Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:48:25.159Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:48:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:25.620Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:48:25.620Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:48:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:25.870Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:48:25.870Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:48:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:48:26.994Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:49:45.979Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:49:45.979Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:49:45.979Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:49:45.979Z] Platform:      win32
+[debug] [2018-02-24T20:49:45.979Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:49:45.979Z] Time:          Sat Feb 24 2018 15:49:45 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:49:45.979Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:49:45.979Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:49:45.995Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:49:45.995Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:49:45 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:49:46.652Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:49:46.652Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:49:46 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:49:46.965Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:49:46.965Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:49:46 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:49:47.246Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:49:47.261Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:49:47 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:49:47.814Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:51:15.396Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:51:15.396Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:51:15.396Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:51:15.396Z] Platform:      win32
+[debug] [2018-02-24T20:51:15.396Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:51:15.396Z] Time:          Sat Feb 24 2018 15:51:15 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:15.396Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:51:15.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:51:15.396Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:51:15.396Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:51:15 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:16.057Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:51:16.057Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:51:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:16.506Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:51:16.506Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:51:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:16.835Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:51:16.835Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:51:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:17.091Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:51:57.562Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:51:57.564Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:51:57.564Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:51:57.564Z] Platform:      win32
+[debug] [2018-02-24T20:51:57.564Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:51:57.564Z] Time:          Sat Feb 24 2018 15:51:57 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:51:57.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:51:57.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:51:57.574Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:51:57.574Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:51:57 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:06.441Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:52:06.441Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:52:06 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:06.709Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:52:06.711Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:52:06 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:09.757Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:52:09.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:52:09.759Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:52:09.759Z] Platform:      win32
+[debug] [2018-02-24T20:52:09.759Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:52:09.760Z] Time:          Sat Feb 24 2018 15:52:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:09.760Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:52:09.770Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:52:09.771Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:52:09.772Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:52:09 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:10.181Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:52:10.181Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:52:10 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:11.112Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:52:11.127Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:52:11 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:11.819Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:52:11.819Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:52:11 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:12.060Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:52:52.267Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:52:52.267Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:52:52.267Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:52:52.267Z] Platform:      win32
+[debug] [2018-02-24T20:52:52.267Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:52:52.267Z] Time:          Sat Feb 24 2018 15:52:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:52.267Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:52:52.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:52:52.282Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:52:52.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:52:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:52.775Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:52:52.775Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:52:52 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:53.047Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:52:53.047Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:52:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:53.312Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:52:53.312Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:52:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:52:53.740Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:53:16.016Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:53:16.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:53:16.016Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:53:16.016Z] Platform:      win32
+[debug] [2018-02-24T20:53:16.016Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:53:16.016Z] Time:          Sat Feb 24 2018 15:53:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:53:16.016Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:53:16.016Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:53:16.016Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:53:16.032Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:53:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:53:16.282Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:53:16.282Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:53:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:53:16.557Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:53:16.559Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:53:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:53:16.819Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:53:16.819Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:53:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:53:18.656Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:54:06.888Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:54:06.888Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:54:06.888Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:54:06.888Z] Platform:      win32
+[debug] [2018-02-24T20:54:06.888Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:54:06.888Z] Time:          Sat Feb 24 2018 15:54:06 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:06.888Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:54:06.903Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:54:06.903Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:54:06.903Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:54:06 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:07.248Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:54:07.248Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:54:07 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:07.831Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:54:07.831Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:54:07 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:08.409Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:54:08.409Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:54:08 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:09.294Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:54:54.495Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:54:54.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:54:54.497Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:54:54.497Z] Platform:      win32
+[debug] [2018-02-24T20:54:54.497Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:54:54.498Z] Time:          Sat Feb 24 2018 15:54:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:54.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:54:54.509Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:54:54.509Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:54:54.511Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:54:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:54.815Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:54:54.815Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:54:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:58.747Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:54:58.747Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:54:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:59.592Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:54:59.592Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:54:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:54:59.826Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:56:31.947Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:56:31.947Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:56:31.947Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:56:31.947Z] Platform:      win32
+[debug] [2018-02-24T20:56:31.947Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:56:31.947Z] Time:          Sat Feb 24 2018 15:56:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:56:31.947Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:56:31.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:56:31.962Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:56:31.962Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:56:31 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:56:32.289Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:56:32.289Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:56:32 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:56:32.668Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:56:32.669Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:56:32 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:56:32.930Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:56:32.930Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:56:32 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:56:33.237Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:57:07.537Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:57:07.537Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:57:07.537Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:57:07.537Z] Platform:      win32
+[debug] [2018-02-24T20:57:07.537Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:57:07.537Z] Time:          Sat Feb 24 2018 15:57:07 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:57:07.537Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:57:07.553Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:57:07.553Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:57:07.553Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:57:07 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:57:08.194Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:57:08.194Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:57:08 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:57:08.555Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:57:08.555Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:57:08 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:57:08.860Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:57:08.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:57:08 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:57:09.079Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T20:59:53.555Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T20:59:53.558Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T20:59:53.558Z] CLI Version:   3.17.4
+[debug] [2018-02-24T20:59:53.558Z] Platform:      win32
+[debug] [2018-02-24T20:59:53.558Z] Node Version:  v8.9.3
+[debug] [2018-02-24T20:59:53.559Z] Time:          Sat Feb 24 2018 15:59:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:59:53.559Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T20:59:53.565Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T20:59:53.565Z] > authorizing via signed-in user
+[debug] [2018-02-24T20:59:53.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:59:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:59:53.863Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:59:53.863Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 15:59:53 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:59:54.207Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T20:59:54.207Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 15:59:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:59:54.469Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T20:59:54.469Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 15:59:54 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T20:59:54.734Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T21:01:27.594Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T21:01:27.596Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T21:01:27.596Z] CLI Version:   3.17.4
+[debug] [2018-02-24T21:01:27.596Z] Platform:      win32
+[debug] [2018-02-24T21:01:27.597Z] Node Version:  v8.9.3
+[debug] [2018-02-24T21:01:27.597Z] Time:          Sat Feb 24 2018 16:01:27 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:01:27.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T21:01:27.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T21:01:27.609Z] > authorizing via signed-in user
+[debug] [2018-02-24T21:01:27.611Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:01:27 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:01:27.907Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:01:27.907Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 16:01:27 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:01:28.304Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T21:01:28.304Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:01:28 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:01:28.956Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:01:28.956Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 16:01:28 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:01:29.176Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T21:02:00.799Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T21:02:00.799Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T21:02:00.799Z] CLI Version:   3.17.4
+[debug] [2018-02-24T21:02:00.799Z] Platform:      win32
+[debug] [2018-02-24T21:02:00.799Z] Node Version:  v8.9.3
+[debug] [2018-02-24T21:02:00.799Z] Time:          Sat Feb 24 2018 16:02:00 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:00.799Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T21:02:00.799Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T21:02:00.815Z] > authorizing via signed-in user
+[debug] [2018-02-24T21:02:00.815Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:02:00 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:01.269Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:02:01.269Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 16:02:01 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:03.448Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T21:02:03.448Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:02:03 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:04.644Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:02:04.644Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 16:02:04 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:04.980Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T21:02:50.680Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T21:02:50.680Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T21:02:50.680Z] CLI Version:   3.17.4
+[debug] [2018-02-24T21:02:50.680Z] Platform:      win32
+[debug] [2018-02-24T21:02:50.680Z] Node Version:  v8.9.3
+[debug] [2018-02-24T21:02:50.680Z] Time:          Sat Feb 24 2018 16:02:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:50.680Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T21:02:50.695Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T21:02:50.695Z] > authorizing via signed-in user
+[debug] [2018-02-24T21:02:50.695Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:02:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:51.056Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:02:51.056Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 16:02:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:51.415Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T21:02:51.415Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:02:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:51.776Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:02:51.776Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 16:02:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:02:52.057Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-24T21:05:40.368Z] ----------------------------------------------------------------------
+[debug] [2018-02-24T21:05:40.370Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-24T21:05:40.370Z] CLI Version:   3.17.4
+[debug] [2018-02-24T21:05:40.370Z] Platform:      win32
+[debug] [2018-02-24T21:05:40.370Z] Node Version:  v8.9.3
+[debug] [2018-02-24T21:05:40.370Z] Time:          Sat Feb 24 2018 16:05:40 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:05:40.370Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-24T21:05:40.380Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-24T21:05:40.381Z] > authorizing via signed-in user
+[debug] [2018-02-24T21:05:40.383Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:05:40 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:05:41.219Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:05:41.220Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 16:05:41 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:05:41.522Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-24T21:05:41.523Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 16:05:41 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:05:41.780Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-24T21:05:41.780Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 16:05:41 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-24T21:05:41.993Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
