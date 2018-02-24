@@ -13,3 +13,15 @@ function writeUserData(userId, name, password) {
     password: password,
   });
 }
+function writeDataTest(){
+	var name = document.getElementById("text-input").value;
+	var details = document.getElementById("details-input").value;
+	writeData(name, details);
+}
+function writeData(name, details){
+	var newEventRef = firebase.database().ref('events/').push()
+	newEventRef.set({
+		eventname: name,
+		details: details,
+	});
+}
