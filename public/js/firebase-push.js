@@ -22,13 +22,15 @@ function writeDataTest(){
 	document.getElementById("details-input").value = '';
 
 }
-function writeData(name, details){
+function writeData(name, description, time, location, image){
 	var newEventRef = firebase.database().ref('events/').push()
 	newEventRef.set({
 		eventname: name,
-		details: details,
+		eventdescription: description,
+		eventtime: time,
+		eventlocation: location,
+		eventimage: image,
 	});
-
 }
 function outputEvents(callback){
 	var eventsRef = firebase.database().ref('events/');
