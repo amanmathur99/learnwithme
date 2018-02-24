@@ -1,18 +1,97 @@
-body {
-  padding-top: 3rem;
-  -webkit-text-size-adjust:none;
-}
-.starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
-}
-.top-nav{
-	height: 3rem;
-	padding: 0.5rem 1rem;
+body, html {
+  font-family: 'SF Pro Display', sans-serif;
+  color:#595959;
+  margin: 0;
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
+
+.header {
+  background-image: url('../header.jpg');
+  height:350px;
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h1 {
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 72px;
+padding-top: 100px;
+}
+
+h2 {
+  font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-size: 48px;
+}
+
+h3 {
+  font-weight: 600;
+line-height: normal;
+font-size: 24px;
+padding-top: 36px;
+padding-bottom: 24px;
+
+color: #2F80ED;
+}
+
+h4 {
+  font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 18px;
+}
+
+p {
+  font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: justify;
+}
+.card {
+  border-radius: 20px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.14);
+}
+
+.card-img-top {
+    background-image: url('../sample.jpg');
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 115px;
+}
+
+.info {
+  font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: justify;
+padding-left: 8px;
+color: rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 425px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 28px;
+  }
 }

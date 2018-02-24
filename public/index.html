@@ -38,63 +38,35 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="/css/styles.css/"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-md fixed-top top-nav">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="container-fluid" style="padding:0;">
+          <div class="header">
+            <h1>LEARNWITH.ME</h1>
+            <h2>Connecting a community of likeminded learners.</h2>
+          </div>
+        </div>
+        <div class="container" style="padding-left: 73px; margin: 0;">
+          <div class="upcoming" style="padding-bottom: 100px;">
+            <h3>Browse upcoming events</h3>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+
+        <div class="card" style="width: 20rem;">
+        <div class="card-img-top"></div>
+        <div class="card-block" style="padding-bottom: 25px;">
+          <h4>Intro to Machine Learning</h4>
+          <p>Computer vision is a new and active field of research, allowing machines to see the world as we know it.</p>
+          <i class="far fa-calendar-alt icon"></i><span class="info">Saturday March 3, 2018 from 6:00 - 9:00 pm</span>
+          <br>
+          <i class="fas fa-map-marker icon"></i><span class="info">Natural Science Centre Room 1</span>
+        </div>
+
       </div>
-    </nav>
-
-    <input id="clickMe" type="button" value="clickme" onclick="signin();" />
-
-    <section name="signup-test" class="container">
-      <form>
-        <div class="form-group">
-          <label for="text-input">Event name</label>
-          <input type="email" class="form-control" id="text-input" aria-describedby="emailHelp" placeholder="Event name">
-          <small id="text-label" class="form-text text-muted">What is your event called?</small>
-        </div>
-        <div class="form-group">
-          <label for="details-input">Event details</label>
-          <input type="text" class="form-control" id="details-input" placeholder="Details">
-        </div>
-        <input id="clickMe" type="button" value="clickme" onclick="writeDataTest();" />
-      </form>
-    </section>
-
-    <section name="events" class="container event-container">
-    </section>
+    </div>
+    </div>
     <script>
       outputEvents((data) => {
         $(data).each(function(i, e) {
