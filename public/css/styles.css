@@ -1,7 +1,10 @@
 body {
-  padding-top: 20rem;
+  padding-top: 4rem;
 }
 .starter-template {
   padding: 3rem 1.5rem;
   text-align: center;
+}
+.navbar{
+	height: 4rem;
 }
