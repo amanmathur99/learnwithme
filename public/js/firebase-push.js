@@ -14,13 +14,31 @@ function writeUserData(userId, name, password) {
   });
 }
 function writeDataTest(){
-	var name = document.getElementById("text-input").value;
-	var details = document.getElementById("details-input").value;
-	writeData(name, details);
+	var name = document.getElementById("eventNameInput").value;
+	var description = document.getElementById("eventDescriptionInput").value;
+	var time = document.getElementById("eventTimeInput").value;
+	var location = document.getElementById("eventLocationInput").value;
+	var image = document.getElementById("eventImageInput").value;
 
-	document.getElementById("text-input").value = '';
-	document.getElementById("details-input").value = '';
+	if(name != '' && description != '' && time != '' && location != '' && image != ''){
+		writeData(name, description, time, location, image);
 
+		document.getElementById("eventNameInput").value = '';
+		document.getElementById("eventDescriptionInput").value = '';
+		document.getElementById("eventTimeInput").value = '';
+		document.getElementById("eventLocationInput").value = '';
+		document.getElementById("eventImageInput").value = '';
+
+		document.getElementById("eventFailure").classList.add('hide');
+		document.getElementById("eventSuccessful").classList.remove('hide');
+	}else{
+		document.getElementById("eventFailure").classList.remove('hide');
+		document.getElementById("eventSuccessful").classList.add('hide');
+	}
+}
+function closeSuccess(){
+	document.getElementById("eventSuccessful").classList.add('hide');
+	document.getElementById("eventFailure").classList.add('hide');
 }
 function writeData(name, description, time, location, image){
 	var newEventRef = firebase.database().ref('events/').push()

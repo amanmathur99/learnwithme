@@ -591,3 +591,365 @@
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-02-25T02:07:34.682Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T02:07:34.685Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T02:07:34.685Z] CLI Version:   3.17.4
+[debug] [2018-02-25T02:07:34.685Z] Platform:      win32
+[debug] [2018-02-25T02:07:34.686Z] Node Version:  v8.9.3
+[debug] [2018-02-25T02:07:34.687Z] Time:          Sat Feb 24 2018 21:07:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:34.687Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T02:07:34.701Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T02:07:34.703Z] > authorizing via signed-in user
+[debug] [2018-02-25T02:07:34.706Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-25T02:07:34.706Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/P85oq5C2xSxpL-Nc5qdkr9IdZeWSXqEZyJREE9k_hMuQPT1WFzBlgZ10bqlS1zFC',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Feb 24 2018 21:07:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:34.855Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:07:34.865Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:07:34 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:35.431Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:07:35.431Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 21:07:35 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:35.691Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T02:07:35.693Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:07:35 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:36.214Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:07:36.215Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 21:07:36 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:07:36.409Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T02:09:26.868Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketOnEnd (_http_client.js:423:23)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T02:09:26.869Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T02:10:25.021Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T02:10:25.023Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T02:10:25.023Z] CLI Version:   3.17.4
+[debug] [2018-02-25T02:10:25.023Z] Platform:      win32
+[debug] [2018-02-25T02:10:25.023Z] Node Version:  v8.9.3
+[debug] [2018-02-25T02:10:25.024Z] Time:          Sat Feb 24 2018 21:10:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:10:25.024Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T02:10:25.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T02:10:25.046Z] > authorizing via signed-in user
+[debug] [2018-02-25T02:10:25.051Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:10:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:10:25.368Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:10:25.369Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 21:10:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:10:25.759Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T02:10:25.762Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:10:25 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:10:26.007Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:10:26.007Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 21:10:26 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:10:32.702Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T02:12:55.049Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketOnEnd (_http_client.js:423:23)
+    at emitNone (events.js:111:20)
+    at TLSSocket.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1056:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:218:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T02:12:55.051Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T02:13:46.804Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T02:13:46.806Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T02:13:46.806Z] CLI Version:   3.17.4
+[debug] [2018-02-25T02:13:46.806Z] Platform:      win32
+[debug] [2018-02-25T02:13:46.806Z] Node Version:  v8.9.3
+[debug] [2018-02-25T02:13:46.807Z] Time:          Sat Feb 24 2018 21:13:46 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:13:46.807Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T02:13:46.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T02:13:46.818Z] > authorizing via signed-in user
+[debug] [2018-02-25T02:13:46.820Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:13:46 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:13:47.525Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:13:47.526Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 21:13:47 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:13:47.788Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T02:13:47.790Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 21:13:47 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:13:48.039Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T02:13:48.039Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 21:13:48 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T02:13:48.253Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T06:13:16.123Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T06:13:16.124Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T06:13:16.125Z] CLI Version:   3.17.4
+[debug] [2018-02-25T06:13:16.125Z] Platform:      win32
+[debug] [2018-02-25T06:13:16.125Z] Node Version:  v8.9.3
+[debug] [2018-02-25T06:13:16.125Z] Time:          Sun Feb 25 2018 01:13:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:16.125Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T06:13:16.142Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T06:13:16.143Z] > authorizing via signed-in user
+[debug] [2018-02-25T06:13:16.145Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-25T06:13:16.145Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/P85oq5C2xSxpL-Nc5qdkr9IdZeWSXqEZyJREE9k_hMuQPT1WFzBlgZ10bqlS1zFC',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Feb 25 2018 01:13:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:16.291Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T06:13:16.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 01:13:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:16.564Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T06:13:16.564Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sun Feb 25 2018 01:13:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:16.872Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T06:13:16.874Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 01:13:16 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:17.162Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T06:13:17.162Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 01:13:17 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T06:13:17.470Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T07:22:58.969Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T07:22:58.971Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T07:22:58.971Z] CLI Version:   3.17.4
+[debug] [2018-02-25T07:22:58.971Z] Platform:      win32
+[debug] [2018-02-25T07:22:58.971Z] Node Version:  v8.9.3
+[debug] [2018-02-25T07:22:58.971Z] Time:          Sun Feb 25 2018 02:22:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:22:58.971Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T07:22:58.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T07:22:58.984Z] > authorizing via signed-in user
+[debug] [2018-02-25T07:22:58.986Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-02-25T07:22:58.987Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/P85oq5C2xSxpL-Nc5qdkr9IdZeWSXqEZyJREE9k_hMuQPT1WFzBlgZ10bqlS1zFC',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Feb 25 2018 02:22:58 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:22:59.119Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:22:59.128Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 02:22:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:22:59.526Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:22:59.527Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sun Feb 25 2018 02:22:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:22:59.895Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T07:22:59.898Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 02:22:59 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:23:00.143Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:23:00.143Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 02:23:00 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:23:00.331Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T07:40:51.469Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T07:40:51.471Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T07:40:51.471Z] CLI Version:   3.17.4
+[debug] [2018-02-25T07:40:51.471Z] Platform:      win32
+[debug] [2018-02-25T07:40:51.471Z] Node Version:  v8.9.3
+[debug] [2018-02-25T07:40:51.471Z] Time:          Sun Feb 25 2018 02:40:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:40:51.471Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T07:40:51.481Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T07:40:51.482Z] > authorizing via signed-in user
+[debug] [2018-02-25T07:40:51.484Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 02:40:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:40:51.805Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:40:51.805Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sun Feb 25 2018 02:40:51 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:00.861Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T07:41:00.863Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T07:41:00.863Z] CLI Version:   3.17.4
+[debug] [2018-02-25T07:41:00.863Z] Platform:      win32
+[debug] [2018-02-25T07:41:00.863Z] Node Version:  v8.9.3
+[debug] [2018-02-25T07:41:00.864Z] Time:          Sun Feb 25 2018 02:41:00 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:00.864Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T07:41:00.874Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T07:41:00.875Z] > authorizing via signed-in user
+[debug] [2018-02-25T07:41:00.877Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 02:41:00 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:01.105Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:41:01.106Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sun Feb 25 2018 02:41:01 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:02.811Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T07:41:02.812Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 02:41:02 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:03.052Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T07:41:03.052Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 02:41:03 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T07:41:03.264Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-02-25T08:00:41.846Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.847Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.847Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.847Z] Error: getaddrinfo ENOTFOUND www.gstatic.com www.gstatic.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.849Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.849Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.850Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:41.850Z] Error: socket hang up
+    at createHangUpError (_http_client.js:331:15)
+    at TLSSocket.socketCloseListener (_http_client.js:363:23)
+    at emitOne (events.js:121:20)
+    at TLSSocket.emit (events.js:211:7)
+    at _handle.close (net.js:554:12)
+    at TCP.done [as _onclose] (_tls_wrap.js:356:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-02-25T08:00:48.627Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T08:00:48.628Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T08:00:48.629Z] CLI Version:   3.17.4
+[debug] [2018-02-25T08:00:48.629Z] Platform:      win32
+[debug] [2018-02-25T08:00:48.629Z] Node Version:  v8.9.3
+[debug] [2018-02-25T08:00:48.629Z] Time:          Sun Feb 25 2018 03:00:48 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T08:00:48.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T08:00:48.640Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T08:00:48.640Z] > authorizing via signed-in user
+[debug] [2018-02-25T08:00:48.642Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 03:00:48 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T08:00:49.176Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T08:00:49.177Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sun Feb 25 2018 03:00:49 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T08:00:49.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T08:00:49.505Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sun Feb 25 2018 03:00:49 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T08:00:50.024Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T08:00:50.024Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sun Feb 25 2018 03:00:50 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T08:00:50.257Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

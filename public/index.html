@@ -30,7 +30,7 @@
     firebase.initializeApp(config);
   </script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -67,7 +67,7 @@
                 '<div class="card" style="width: 20rem;"><div class="card-img-top" style=background-image:url("' + image_url + '")></div><div class="card-block" style="padding-bottom: 25px;"><h4>'+data[i][3]+'</h4><p>' + data[i][0] + '</p><i class="far fa-calendar-alt icon"></i><span class="info">' + data[i][4] + '</span><br><i class="fas fa-map-marker icon"></i><span class="info">' + data[i][2] + '</span></div>'
               );
             });
-            $(".flexbox").append('<button class="btn card new-card" data-toggle="modal" data-target = "#createEventModal"><img src="plus-circle.png"><h4 class="create">Create your own event</h4></button>');
+            $(".flexbox").append('<a data-target="#createEventModal" data-toggle="modal" class="aTag" id="createEvent" href="#createEventModal"><div class="card new-card container flex-col"><img src="plus-circle.png"/><div class="card-block"><h4 class="create">Create your own event</h4></div></div></div></a>');
           });
         </script>
       </div>
@@ -81,12 +81,43 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          <p>Modal body text goes here.</p>
+        <div class="modal-body" id="#noPadding">
+          <form>
+            <div class="form-group">
+              <label for="eventNameInput">Event name</label>
+              <input type="text" class="form-control" id="eventNameInput" aria-describedby="eventNAme" placeholder="Enter event name">
+            </div>
+            <div class="form-group">
+              <label for="eventDescriptionInput">Description</label>
+              <input type="text" class="form-control" id="eventDescriptionInput" placeholder="Description">
+              <small id="eventDescHelp" class="form-text text-muted">A brief description of your event.</small>
+            </div>
+            <div class="form-group">
+              <label for="eventTimeInput">Time</label>
+              <input type="text" class="form-control" id="eventTimeInput" placeholder="Time">
+            </div>
+            <div class="form-group">
+              <label for="eventLocationInput">Location</label>
+              <input type="text" class="form-control" id="eventLocationInput" placeholder="Location">
+            </div>
+            <div class="form-group">
+              <label for="eventImageInput">Image</label>
+              <input type="url" class="form-control" id="eventImageInput" placeholder="Image URL">
+              <small id="eventImageHelp" class="form-text text-muted">A URL to an image representing the event.</small>
+            </div>
+          </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Save changes</button>
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="modal-footer flex-col2">
+          <div class="alert alert-primary hide" role="alert" id="eventSuccessful">
+            You have successfully created the event!
+          </div>
+          <div class="alert alert-warning hide" role="alert" id="eventFailure">
+            Please ensure all fields are valid!
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary" onclick="writeDataTest();">Submit</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="closeSuccess();">Close</button>
+          </div>
         </div>
       </div>
     </div>
