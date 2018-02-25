@@ -16,5 +16,4 @@ function outputEvents(callback){
 	  });
 	  callback(events);
 	});
-	
 }

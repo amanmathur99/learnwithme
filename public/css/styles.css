@@ -61,6 +61,7 @@ text-align: justify;
 .card {
   border-radius: 20px;
   box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.14);
+  margin: 5%;
 }
 
 .card-img-top {
@@ -93,9 +94,12 @@ color: rgba(0, 0, 0, 0.2);
   margin: auto;
 }
 
+.upcoming{
+	width: 100%;
+}
 .new-card {
   width: 171px;
-  height: 279px;
+  height: 264px;
   text-align: center;
 }
 
@@ -121,6 +125,16 @@ color: rgba(0, 0, 0, 0.2);
 .login-button:hover{
 	background-color: rgba(256, 256, 256, 0.7);
 	border-radius: 28px;
+}
+.flexbox{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	width: 100%;
+}
+
+.row{
+	margin: 0 10%;
 }
 
 @media only screen and (max-width: 555px) {

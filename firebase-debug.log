@@ -486,3 +486,35 @@
 [info] i  hosting: Serving hosting files from: public
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-02-25T00:20:39.498Z] ----------------------------------------------------------------------
+[debug] [2018-02-25T00:20:39.498Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\brian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-02-25T00:20:39.498Z] CLI Version:   3.17.4
+[debug] [2018-02-25T00:20:39.498Z] Platform:      win32
+[debug] [2018-02-25T00:20:39.498Z] Node Version:  v8.9.3
+[debug] [2018-02-25T00:20:39.498Z] Time:          Sat Feb 24 2018 19:20:39 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T00:20:39.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-25T00:20:39.498Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-25T00:20:39.498Z] > authorizing via signed-in user
+[debug] [2018-02-25T00:20:39.513Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 19:20:39 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T00:20:39.864Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T00:20:39.864Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/htv2018-b25a8/tokens  
+  
+ Sat Feb 24 2018 19:20:39 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T00:20:40.343Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Misc\HTV2018'...
+[info] 
+[debug] [2018-02-25T00:20:40.344Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/htv2018-b25a8  
+  
+ Sat Feb 24 2018 19:20:40 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T00:20:40.647Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-25T00:20:40.647Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/321431580357/clients/_:getWebAppConfig  
+  
+ Sat Feb 24 2018 19:20:40 GMT-0500 (Eastern Standard Time)
+[debug] [2018-02-25T00:20:40.870Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+

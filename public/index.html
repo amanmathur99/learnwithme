@@ -34,6 +34,7 @@
 
   <script src="js/firebase-login.js"></script>
   <script src="js/firebase-push.js"></script>
+  <script src="js/scripts.js"></script>
   <script src="js/event-populate.js"></script>
 
   <!-- Bootstrap core CSS -->
@@ -52,22 +53,21 @@
       <h2>Connecting a community of likeminded learners.</h2>
     </div>
   </div>
-  <div class="container" style="padding-left: 73px; margin: 0;">
-    <div class="upcoming" style="padding-bottom: 100px;">
-      <h3>Browse upcoming events</h3>
-      <div class="row">
-        <div class="col">
-          <script>
-            outputEvents((data) => {
-              $(data).each(function(i, e) {
-                var image_url = data[i][1];
-                $(".upcoming").append(
-                  '<div class="card" style="width: 20rem;"><div class="card-img-top" style=background-image:url("' + image_url + '")></div><div class="card-block" style="padding-bottom: 25px;"><h4>'+data[i][3]+'</h4><p>' + data[i][0] + '</p><i class="far fa-calendar-alt icon"></i><span class="info">' + data[i][4] + '</span><br><i class="fas fa-map-marker icon"></i><span class="info">' + data[i][2] + '</span></div><div class="col"><div class="card new-card"><img src="plus-circle.png"><div class="card-block" style="padding-bottom: 25px;"><h4 class="create">Create your own event</h4></div></div></div>'
-                );
-              });
+  <div class="row">
+    <div class="upcoming">
+    <h3>Browse upcoming events</h3>
+      <div class="flexbox">
+        <script>
+          outputEvents((data) => {
+            $(data).each(function(i, e) {
+              var image_url = data[i][1];
+              $(".flexbox").append(
+                '<div class="card" style="width: 20rem;"><div class="card-img-top" style=background-image:url("' + image_url + '")></div><div class="card-block" style="padding-bottom: 25px;"><h4>'+data[i][3]+'</h4><p>' + data[i][0] + '</p><i class="far fa-calendar-alt icon"></i><span class="info">' + data[i][4] + '</span><br><i class="fas fa-map-marker icon"></i><span class="info">' + data[i][2] + '</span></div>'
+              );
             });
-          </script>
-        </div>
+            $(".flexbox").append('<div class="card new-card"><img src="plus-circle.png"><div class="card-block" style="padding-bottom: 25px;"><h4 class="create">Create your own event</h4></div></div>');
+          });
+        </script>
       </div>
     </div>
   </body>
