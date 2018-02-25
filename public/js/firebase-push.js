@@ -4,6 +4,28 @@ function writeTest(){
 	var password = document.getElementById("password-input").value;
   	writeUserData(user, username, password);
 }
+function isLoggedIn(){
+	var loggedin = false;
+	user = firebase.auth().currentUser;
+	if (user) {
+		document.getElementById("login").classList.add('hide');
+		document.getElementById("signout").classList.remove('hide');
+	    loggedin = true;
+	} else {
+	    document.getElementById("login").classList.remove('hide');
+	    document.getElementById("signout").classList.add('hide');
+	}
+	return loggedin;
+}
+function signOut(){
+	firebase.auth().signOut().then(function() {
+  		console.log('Signed Out');
+  		document.getElementById("login").classList.remove('hide');
+	    document.getElementById("signout").classList.add('hide');
+	}, function(error) {
+	  console.error('Sign Out Error', error);
+	});
+}
 function writeUserData(userId, name, password) {
   console.log(userId);
   console.log(password);
