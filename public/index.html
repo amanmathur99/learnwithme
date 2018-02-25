@@ -48,6 +48,12 @@
 <body>
   <div class="container-fluid" style="padding:0;">
     <div class="header">
+      <div class="alert alert-success hide header-alert" role="alert" id="signedout">
+        You have signed out!
+      </div>
+      <div class="alert alert-success hide header-alert" role="alert" id="signedin">
+        You have signed in!
+      </div>
       <div class="buttons">
         <button type="button" class="btn login-button" onclick="signin();" id="login"><strong>Login</strong></button>
         <button type="button" class="btn login-button hide" id="signout" onclick="signOut();"><strong>Sign Out</strong></button>

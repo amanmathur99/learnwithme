@@ -76,6 +76,9 @@ p {
   height: 115px;
 }
 
+.header-alert{
+	position: absolute;
+}
 .info {
  	font-style: normal;
 	font-weight: normal;

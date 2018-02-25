@@ -7,6 +7,9 @@ function signin(){
   var token = result.credential.accessToken;
   // The signed-in user info.
   var user = result.user;
+  document.getElementById("signedin").classList.remove('hide');
+  $("#signedin").fadeIn()
+  $("#signedin").fadeOut(3000);
   isLoggedIn();
   // ...
 }).catch(function(error) {

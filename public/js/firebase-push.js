@@ -22,6 +22,9 @@ function signOut(){
   		console.log('Signed Out');
   		document.getElementById("login").classList.remove('hide');
 	    document.getElementById("signout").classList.add('hide');
+
+	    $("#signedout").fadeIn();
+		$("#signedout").fadeOut(3000);
 	}, function(error) {
 	  console.error('Sign Out Error', error);
 	});
