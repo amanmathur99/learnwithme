@@ -106,7 +106,10 @@ color: rgba(0, 0, 0, 0.2);
 .new-card img {
   height: 50px;
   width: 50px;
-  margin: 80px auto 0 auto;
+}
+
+.card-block{
+	height: 100%;
 }
 
 .login-button, .login-button:focus, .login-button:active{
@@ -135,6 +138,11 @@ color: rgba(0, 0, 0, 0.2);
 
 .row{
 	margin: 0 10%;
+}
+
+.createEventModal{
+	display: absolute;
+	z-index: -500;
 }
 
 @media only screen and (max-width: 555px) {
